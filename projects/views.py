@@ -15,3 +15,6 @@ def project_detail(request, pk):
         'project': project
     }
     return render(request, 'project_detail.html', context)
+
+def introduction(request):
+    return render(request, 'introduction.html',context)
